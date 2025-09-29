@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+@import "tailwindcss";
+
+
+* {
+  font-family: "Urbanist";
+}
+
+
+.kam {
+  animation: slowRotate 22s linear infinite;
+}
+
+@keyframes slowRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+@layer utilities {
+  .bg-light {
+    @apply bg-[#F1F1F1];
+  }
+
+  .bg-dark {
+    @apply bg-[#000000];
+  }
+}
+
+
+.InstrumentalSerif {
+  font-family: "Instrument Serif", serif;
+}
