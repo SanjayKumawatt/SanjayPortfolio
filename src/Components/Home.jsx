@@ -19,7 +19,7 @@ function Home() {
                 transition={{ duration: 0.9 , delay:0.4 }}
                 className="flex items-center justify-center">
                 <div className={`${isDark === "dark" ? "bg-dark" : "bg-light"}  px-[4%] flex flex-col  items-center w-[50%] max-sm:w-[95%] max-sm:text-center `}>
-                    <img src={assets.SK_photo} alt="" className="h-30 object-cover border-2 border-black rounded-full mb-5" />
+                    <img src={assets.sk_photo} alt="" className="h-30 object-cover border-2 border-black rounded-full mb-5" />
 
                     <div className="text-5xl font-bold mb-6 max-sm:text-4xl max-sm:mb-3 w-full text-center">
                         <h1 style={{
