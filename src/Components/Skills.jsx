@@ -26,7 +26,7 @@ function Skills() {
         { name: "MongoDB", icon: <SiMongodb className="text-green-700 text-4xl" /> },
         { name: "MERN Stack", icon: <SiReacttable className="text-blue-400 text-4xl" /> }, // React logo as generic for MERN
         { name: "Framer Motion", icon: <TbBrandFramerMotion className="text-pink-500 text-4xl" /> },
-        { name: "", icon: <img src={assets.GSAP_icon} alt="" className="h-4" /> },
+        { name: "", icon: <img src={assets.gsap_icon} alt="" className="h-4" /> },
         { name: "Tailwind CSS", icon: <RiTailwindCssFill className="text-sky-400 text-4xl" /> },
         { name: "Git & GitHub", icon: <FaGitAlt className="text-red-600 text-4xl" /> },
         { name: "API Integration", icon: <FaJs className="text-yellow-500 text-4xl" /> }, // JS icon as generic

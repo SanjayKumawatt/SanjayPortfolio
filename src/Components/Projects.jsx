@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Projects() {
     const [isDark, setIsDark] = useContext(ThemeContext);
     return (
-        <div id="projects" className={`${isDark == "dark" ? "bg-dark text-gray-400" : "bg-light"} px-[4%]`}>
+        <div id="projects" className={`${isDark == "dark" ? "bg-dark text-gray-400" : "bg-light"} px-[4%]   max-sm:py-[3%]`}>
             <motion.div
                 initial={{ y: 40, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
